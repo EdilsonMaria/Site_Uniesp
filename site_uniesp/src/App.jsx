@@ -5,6 +5,7 @@ import BannerAd from './components/BannerAd'
 import Navbar from './components/Navbar'
 import Inicial from './pages/Inicial'
 import Faculdade from './pages/Faculdade'
+import DpoLgpd from './pages/DpoLgpd'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Inicial/>}></Route>
             <Route path="/a-faculdade" element={<Faculdade/>}></Route>
+            <Route path="/dpo-lgpd" element={<DpoLgpd/>}></Route>
           </Routes>
         </Box>
 
