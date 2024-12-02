@@ -1,25 +1,29 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Box, Container, CssBaseLine } from '@mui/material'
+import { Box, Container, CssBaseline } from '@mui/material'
 import BannerAd from './components/BannerAd'
 import Navbar from './components/Navbar'
 import Inicial from './pages/Inicial'
+import Faculdade from './pages/Faculdade'
 
 const App = () => {
   return (
     <BrowserRouter>
-      <CssBaseLine></CssBaseLine>
+      <CssBaseline></CssBaseline>
       <Container maxWidth='lg' sx={{ backgroundColor: '#f7f7f7', minHeight: '100vh', padding: '16px', borderRadius: '8px' }}>
         <Box display="flex" alignItems="center" justifyContent="space-between" 
         p={2} sx={{backgroundColor: '#fff', borderRadius: '8px', boxShadow: 1}} >
-          <Navbar/>
+          <Navbar></Navbar>
         </Box>
 
-        <BannerAd/>
+        <Box mt={4}>
+          <BannerAd></BannerAd>
+        </Box>
 
         <Box mt={4}>
           <Routes>
             <Route path="/" element={<Inicial/>}></Route>
+            <Route path="/a-faculdade" element={<Faculdade/>}></Route>
           </Routes>
         </Box>
 
