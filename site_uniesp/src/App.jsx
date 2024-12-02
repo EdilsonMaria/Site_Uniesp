@@ -10,11 +10,12 @@ const App = () => {
     <BrowserRouter>
       <CssBaseLine></CssBaseLine>
       <Container maxWidth='lg' sx={{ backgroundColor: '#f7f7f7', minHeight: '100vh', padding: '16px', borderRadius: '8px' }}>
-        <Box display="flex" alignItems="center" justifyContent="space-between" p={2} 
-        sx={{backgroundColor: '#fff', borderRadius: '8px', boxShadow: 1}} >
-          <Navbar></Navbar>
+        <Box display="flex" alignItems="center" justifyContent="space-between" 
+        p={2} sx={{backgroundColor: '#fff', borderRadius: '8px', boxShadow: 1}} >
+          <Navbar/>
         </Box>
-        <BannerAd></BannerAd>
+
+        <BannerAd/>
 
         <Box mt={4}>
           <Routes>
