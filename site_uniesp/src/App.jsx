@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Inicial from './pages/Inicial'
 import Faculdade from './pages/Faculdade'
 import DpoLgpd from './pages/DpoLgpd'
+import Noticias from './pages/Noticias'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/" element={<Inicial/>}></Route>
             <Route path="/a-faculdade" element={<Faculdade/>}></Route>
             <Route path="/dpo-lgpd" element={<DpoLgpd/>}></Route>
+            <Route path="/noticias" element={<Noticias/>}></Route>
           </Routes>
         </Box>
 
