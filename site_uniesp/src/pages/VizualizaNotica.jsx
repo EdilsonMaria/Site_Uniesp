@@ -19,12 +19,30 @@ const VisualizaNoticia = () => {
         fetchNoticia()
     }, [id])
 
+    //return (
+    //    <div>
+    //        <h1>{noticia.titulo}</h1>
+    //        <p>{noticia.texto}</p>
+    //    </div>
+    //)
+    if (!noticia) {
+        return <CircularProgress />
+    }
+
+    const formattedDate = new Date(noticia.dataCadastro).toLocaleString()
+
     return (
-        <div>
-            <h1>{noticia.titulo}</h1>
-            <p>{noticia.texto}</p>
-        </div>
+        <Box sx={{ p: 4 }}>
+            <Typography variant="h3" gutterBottom>{noticia.titulo}</Typography>
+            <Typography variant="body2" color="text.secondary" gutterBottom>
+                Data e Hora: {formattedDate}
+            </Typography>
+            <Typography variant="body1" sx={{ mt: 2 }}>
+                {noticia.texto}
+            </Typography>
+        </Box>
     )
 }
+
 
 export default VisualizaNoticia

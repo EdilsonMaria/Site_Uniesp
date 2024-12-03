@@ -1,19 +1,22 @@
 {
   "noticias": [
     {
+      "id": "2",
       "titulo": "Pesquisadores desenvolvem nova tecnologia para energia limpa no campus",
       "texto": "Equipe de pesquisadores da universidade desenvolveu uma nova tecnologia solar que promete ser mais eficiente e acessível.",
-      "id": "2"
+      "dataCadastro": "2024-12-02T16:30:00Z"
     },
     {
       "id": "3",
       "titulo": "Estudantes organizam evento cultural para arrecadar fundos",
-      "texto": "Alunos de diferentes cursos organizaram uma feira cultural com apresentações artísticas para arrecadar fundos para projetos sociais."
+      "texto": "Alunos de diferentes cursos organizaram uma feira cultural com apresentações artísticas para arrecadar fundos para projetos sociais.",
+      "dataCadastro": "2024-12-02T16:30:00Z"
     },
     {
+      "id": "4",
       "titulo": "Mercado financeiro fecha em alta",
       "texto": "Bolsa de valores registra novo recorde de valorização com a recuperação econômica global.",
-      "id": "4"
+      "dataCadastro": "2024-12-02T16:30:00Z"
     }
   ]
 }
