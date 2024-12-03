@@ -1,19 +1,19 @@
 {
-    "noticias": [
-      {
-        "id": 1,
-        "titulo": "Universidade lança programa de bolsas de estudo para estudantes de baixa renda",
-        "texto": "A Universidade Federal anunciou um novo programa de bolsas para alunos de baixa renda, cobrindo mensalidades e custos de materiais."
-      },
-      {
-        "id": 2,
-        "titulo": "Pesquisadores desenvolvem nova tecnologia para energia limpa no campus",
-        "texto": "Equipe de pesquisadores da universidade desenvolveu uma nova tecnologia solar que promete ser mais eficiente e acessível."
-      },
-      {
-        "id": 3,
-        "titulo": "Estudantes organizam evento cultural para arrecadar fundos",
-        "texto": "Alunos de diferentes cursos organizaram uma feira cultural com apresentações artísticas para arrecadar fundos para projetos sociais."
-      }
-    ]
-  }
+  "noticias": [
+    {
+      "titulo": "Pesquisadores desenvolvem nova tecnologia para energia limpa no campus",
+      "texto": "Equipe de pesquisadores da universidade desenvolveu uma nova tecnologia solar que promete ser mais eficiente e acessível.",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "titulo": "Estudantes organizam evento cultural para arrecadar fundos",
+      "texto": "Alunos de diferentes cursos organizaram uma feira cultural com apresentações artísticas para arrecadar fundos para projetos sociais."
+    },
+    {
+      "titulo": "Mercado financeiro fecha em alta",
+      "texto": "Bolsa de valores registra novo recorde de valorização com a recuperação econômica global.",
+      "id": "4"
+    }
+  ]
+}
