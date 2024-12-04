@@ -1,7 +1,10 @@
 
 # Projeto Universitário - UNIESP
 
-Este é um projeto desenvolvido em **React** utilizando o **Vite** como bundler. Ele simula o site de uma universidade chamado **UNIESP**, permitindo aos usuários navegar pelas páginas principais e aos administradores gerenciar notícias.
+Este é um projeto desenvolvido em **React** utilizando o **Vite** como bundler. Ele simula o site de uma universidade chamado **UNIESP**, permitindo aos usuários navegar pelas páginas principais e aos administradores gerenciar notícias. 
+A aplicação está hospedada no Railway e pode ser acessada pelo seguinte link:
+
+➡️ **[Site UNIESP](https://site-uniesp.up.railway.app/)**
 
 ---
 
