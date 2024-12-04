@@ -96,6 +96,16 @@ A aplicação está hospedada no Railway e pode ser acessada pelo seguinte link:
    npm install json-server --save-dev
    ```
 
+6. **server**:
+   - Configura e gerencia um servidor de desenvolvimento para aplicações React.
+   - Suporte para integração com middleware e ferramentas de proxy.
+   - Permite customizações avançadas para roteamento e tratamento de APIs.
+
+   **Instalação**:
+   ```bash
+   npm install json-server --save-dev
+   ```
+
 ---
 
 ## Como Configurar o Projeto
