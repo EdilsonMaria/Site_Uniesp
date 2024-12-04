@@ -162,5 +162,3 @@ Após iniciar o projeto, acesse as páginas usando o navegador:
 - Backend fake: [http://localhost:3000](http://localhost:3000)
 
 ---
-
-Desenvolvido por **Equipe UNIESP** com React, Vite e amor ❤️.
