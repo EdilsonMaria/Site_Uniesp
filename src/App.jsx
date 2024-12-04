@@ -7,7 +7,7 @@ import Inicial from './pages/Inicial'
 import Faculdade from './pages/Faculdade'
 import DpoLgpd from './pages/DpoLgpd'
 import Noticias from './pages/Noticias'
-import VizualizaNotica from './pages/VizualizaNotica'
+import VizualizaNoticia from './pages/VizualizaNoticia'
 import AdminNoticias from './pages/admin/AdminNoticias'
 import CadastroNoticia from './pages/admin/CadastroNoticias'
 import EditarNoticia from './pages/admin/EditarNoticia'
@@ -32,7 +32,7 @@ const App = () => {
             <Route path="/a-faculdade" element={<Faculdade/>}></Route>
             <Route path="/dpo-lgpd" element={<DpoLgpd/>}></Route>
             <Route path="/noticias" element={<Noticias/>}></Route>
-            <Route path="/vizualiza-noticia/:id" element={<VizualizaNotica/>}></Route>
+            <Route path="/vizualiza-noticia/:id" element={<VizualizaNoticia/>}></Route>
             <Route path="/admin-noticias" element={<AdminNoticias/>}></Route>
             <Route path="/cadastrar-noticia" element={<CadastroNoticia/>}></Route>
             <Route path="/editar-noticia/:id" element={<EditarNoticia/>}></Route>

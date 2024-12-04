@@ -1,10 +1,10 @@
 {
   "noticias": [
     {
-      "id": "2",
       "titulo": "Pesquisadores desenvolvem nova tecnologia para energia limpa no campus",
       "texto": "Equipe de pesquisadores da universidade desenvolveu uma nova tecnologia solar que promete ser mais eficiente e acessível.",
-      "dataCadastro": "2024-12-02T16:30:00Z"
+      "dataCadastro": "2024-12-02T07:55",
+      "id": "2"
     },
     {
       "id": "3",
