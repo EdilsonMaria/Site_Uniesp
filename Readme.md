@@ -7,6 +7,8 @@ Este é um projeto desenvolvido em **React** utilizando o **Vite** como bundler.
 
 ## Estrutura do Projeto
 
+- **data/**:
+  - `db.json`: Arquivo usado como backend fake para armazenar notícias utilizando `json-server`.
 - **public/**: Contém imagens públicas acessíveis diretamente pela aplicação.
 - **src/**:
   - **assets/**: Armazena imagens privadas.
@@ -19,12 +21,10 @@ Este é um projeto desenvolvido em **React** utilizando o **Vite** como bundler.
     - `Inicial.jsx`: Página inicial do site universitário.
     - `Noticias.jsx`: Página com a listagem de notícias publicadas.
     - `VizualizaNoticia.jsx`: Página que exibe os detalhes de uma notícia específica.
-  - **Admin/**:
-    - `AdminNoticias.jsx`: Página principal para administradores gerenciarem notícias.
-    - `CadastroNoticia.jsx`: Página para cadastrar novas notícias no sistema.
-    - `EditarNoticias.jsx`: Página para editar ou atualizar notícias existentes.
-- **data/**:
-  - `db.json`: Arquivo usado como backend fake para armazenar notícias utilizando `json-server`.
+    - **Admin/**:
+       - `AdminNoticias.jsx`: Página principal para administradores gerenciarem notícias.
+      - `CadastroNoticia.jsx`: Página para cadastrar novas notícias no sistema.
+      - `EditarNoticias.jsx`: Página para editar ou atualizar notícias existentes.
 - **App.jsx**: Arquivo principal que gerencia as rotas entre todas as páginas.
 
 ---
