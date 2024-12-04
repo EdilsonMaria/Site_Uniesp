@@ -1,36 +1,37 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import { Link } from 'react-router-dom';
-import { Box, Typography, Grid, Card, CardMedia, CardContent } from '@mui/material';
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
+import { Link } from 'react-router-dom'
+import { Box, Typography, Grid, Card, CardMedia, CardContent } from '@mui/material'
 
 const Noticias = () => {
-    const [noticias, setNoticias] = useState([]);
-    const url = "http://localhost:3000/noticias";
+
+    const [noticias, setNoticias] = useState([])
+    const url = "http://localhost:3000/noticias"
 
     useEffect(() => {
         const fetchNoticias = async () => {
             try {
-                const response = await axios.get(url);
-                setNoticias(response.data);
+                const response = await axios.get(url)
+                setNoticias(response.data)
             } catch (error) {
-                console.error("Erro ao buscar noticias", error);
+                console.error("Erro ao buscar noticias", error)
             }
-        };
-        fetchNoticias();
-    }, []);
+        }
+        fetchNoticias()
+    }, [])
 
-    return (
-        <Box sx={{ p: 4 }}>
+  return (
+    <Box sx={{ p: 4 }}>
             <Typography variant="h3" gutterBottom>Notícias</Typography>
             <Grid container spacing={4}>
-                {noticias.map((noticia) => (
+                {noticias.map(noticia => (
                     <Grid item xs={12} sm={6} md={4} key={noticia.id}>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image={noticia.imagem || "https://via.placeholder.com/300x140.png?text=Sem+Imagem"}
-                                alt={`Imagem de ${noticia.titulo}`}
+                                image="https://via.placeholder.com/300x140.png?text=Notícia+Imagem"
+                                alt="Imagem da Notícia"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -50,7 +51,7 @@ const Noticias = () => {
                 ))}
             </Grid>
         </Box>
-    );
-};
+  )
+}
 
-export default Noticias;
+export default Noticias
